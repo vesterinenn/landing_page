@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+.hero-container, .content-container, .quote-container, .sign-up-container, .footer{
+    padding:0 100px;
+}
+
 .hero-container{
     background-color: #1F2937;
 }
@@ -11,12 +15,45 @@ body{
     display: flex;
 }
 
+.nav-logo h1{
+    font-size: 24px;
+    color: #F9FAF8;
+    float: left;
+}
+
+.nav-list{
+    align-items: end;
+}
+
 .nav-list ul li{
+    list-style-type: none;
     display: inline;
+    color: #E7E7EB;
+    font-size: 18px;
+    padding-right: 20px;
+    text-align: end;
 }
 
 .header-container{
     display: flex;
+}
+
+.header-text-container{
+    text-align: start;
+}
+
+.header-text-container h2{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.header-text-container p{
+    color:#F9FAF8
+}
+
+.header-text-container button{
+    border: 0;
 }
 
 .header-image-container img{
@@ -26,6 +63,30 @@ body{
 
 .content-images{
     display: flex;
+}
+
+.content-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
+}
+
+.content-images img{
+    border: outset;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-width: thick;
+    height: 200px;
+}
+
+.content-image{
+    text-align: center;
+}
+
+.content-image-text{
+    text-align: center;
 }
 
 .quote-container{
@@ -38,23 +99,39 @@ body{
     color: #1F2937;
 }
 
+.quote-author{
+    margin-bottom: 0;
+}
+
 .sign-up-container{
-    background-color: #3882F6;
     color:#F9FAF8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.sign-up{
     display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
 }
 
 .footer{
     background-color: #1F2937;
     color:#F9FAF8;
+    text-align: center;
+    padding: 25px 0;
 }
 
 button{
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    
 }
 
 .sign-up-button button{
     border-color: #F9FAF8;
+    border-style: solid;
 }

@@ -33,9 +33,9 @@ body{
 .nav-list li{
     list-style-type: none;
     display: inline-block;
+    padding-left: 15px;
     color: #E7E7EB;
     font-size: 18px;
-    padding-right: 20px;
     text-align: end;
 }
 
@@ -45,7 +45,8 @@ body{
 
 .header-container{
     display: flex;
-    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
 }
 
 .header-text-container{
@@ -66,11 +67,20 @@ body{
 
 .header-text-container button{
     border: 0;
+    margin-top: 10px;
+}
+
+.header-image-container{
+    margin-left: auto;
 }
 
 .header-image-container img{
     height: 250px;
     width: auto;
+}
+
+.content-container{
+    margin-bottom: 50px;
 }
 
 .content-images{
@@ -106,13 +116,19 @@ body{
 }
 
 .quote-text{
+    font-weight: lighter;
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
+    padding-top: 50px;
+    margin-bottom: 0;
 }
 
 .quote-author{
-    margin-bottom: 0;
+    font-weight: bold;
+    text-align: end;
+    margin: 0;
+    padding: 10px 50px 50px 0;
 }
 
 .sign-up-container{
@@ -124,8 +140,14 @@ body{
 
 .sign-up{
     display: flex;
+    justify-content: center;
     background-color: #3882F6;
     border-radius: 10px;
+    align-items: center;
+}
+
+.sign-up-information{
+    padding: 20px 200px 20px 0;
 }
 
 .footer{
@@ -135,12 +157,24 @@ body{
     padding: 25px 0;
 }
 
+.call-to-action, .sign-up-more-info{
+    margin: 0;
+}
+
+.call-to-action{
+    font-weight: bold;
+}
+
+.sign-up-more-info{
+    font-weight: lighter;
+}
+
 button{
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
     padding: 5px 20px 5px 20px;
-    
+    font-weight: bold;
 }
 
 .sign-up-button button{
